@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[New driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[Maximise browser's window]]>
+    </line>
+    <line>
+      <![CDATA[Wait applied on the driver for 20 seconds]]>
+    </line>
+    <line>
+      <![CDATA[Url is passed]]>
+    </line>
+    <line>
+      <![CDATA[Web application launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Login Element is Enable]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Signup button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on Signup Button]]>
+    </line>
+    <line>
+      <![CDATA[Main url is Visible]]>
+    </line>
+    <line>
+      <![CDATA[values passed in user url link]]>
+    </line>
+    <line>
+      <![CDATA[Email is passed to email field]]>
+    </line>
+    <line>
+      <![CDATA[Main Signup Element is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Main Signup Element is Enable]]>
+    </line>
+    <line>
+      <![CDATA[main login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click action performed on main Signup Button]]>
+    </line>
+    <line>
+      <![CDATA[Quiting from browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25483" started-at="2017-04-11T08:20:27Z" finished-at="2017-04-11T08:20:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25483" started-at="2017-04-11T08:20:27Z" finished-at="2017-04-11T08:20:53Z">
+      <class name="com.project.Reporter.AppTest">
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="selectBrowser" is-config="true" duration-ms="15440" started-at="2017-04-11T13:50:27Z" finished-at="2017-04-11T13:50:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New driver instantiated]]>
+            </line>
+            <line>
+              <![CDATA[Maximise browser's window]]>
+            </line>
+            <line>
+              <![CDATA[Wait applied on the driver for 20 seconds]]>
+            </line>
+            <line>
+              <![CDATA[Url is passed]]>
+            </line>
+            <line>
+              <![CDATA[Web application launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="checkValidLogin()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="checkValidLogin" duration-ms="223" started-at="2017-04-11T13:50:43Z" finished-at="2017-04-11T13:50:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Login Element is Enable]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click action performed on Login Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidLogin -->
+        <test-method status="PASS" signature="checkValidSignup()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="checkValidSignup" duration-ms="9411" started-at="2017-04-11T13:50:43Z" finished-at="2017-04-11T13:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Signup button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click action performed on Signup Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidSignup -->
+        <test-method status="PASS" signature="checkValidUserid()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="checkValidUserid" duration-ms="179" started-at="2017-04-11T13:50:52Z" finished-at="2017-04-11T13:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Main url is Visible]]>
+            </line>
+            <line>
+              <![CDATA[values passed in user url link]]>
+            </line>
+            <line>
+              <![CDATA[Email is passed to email field]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidUserid -->
+        <test-method status="PASS" signature="checkValidSignup1()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="checkValidSignup1" duration-ms="139" started-at="2017-04-11T13:50:52Z" depends-on-methods="com.project.Reporter.AppTest.checkValidUserid" finished-at="2017-04-11T13:50:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Main Signup Element is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Main Signup Element is Enable]]>
+            </line>
+            <line>
+              <![CDATA[main login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click action performed on main Signup Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkValidSignup1 -->
+        <test-method status="PASS" signature="bieBie()[pri:0, instance:com.project.Reporter.AppTest@224edc67]" name="bieBie" is-config="true" duration-ms="77" started-at="2017-04-11T13:50:53Z" finished-at="2017-04-11T13:50:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Quiting from browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bieBie -->
+      </class> <!-- com.project.Reporter.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
